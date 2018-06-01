@@ -1,0 +1,16 @@
+telephone_test	1	phone
+sale_test	1.380211241711606	product
+sell_test	0.6020599913279624	product
+call_test	0.3979400086720376	phone
+voice_test	1	phone
+market_test	0.6172999578846993	product
+service_test	1	phone
+food_test	1	product
+telephone_test	1	phone
+sale_test	1.380211241711606	product
+sell_test	0.6020599913279624	product
+call_test	0.3979400086720376	phone
+voice_test	1	phone
+market_test	0.6172999578846993	product
+service_test	1	phone
+food_test	1	product

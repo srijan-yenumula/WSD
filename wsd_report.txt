@@ -1,0 +1,9 @@
+The baseline accuracy is 52.8%
+Model Accuracy is 64.8
+
+
+Confusion Matrix: 
+col_0                  senseid="phone"/>   senseid="product"/>
+row_0                                                         
+ senseid="phone"/>                    28                     1
+ senseid="product"/>                  43                    53

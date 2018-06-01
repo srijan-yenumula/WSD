@@ -1,0 +1,44 @@
+Script started on Sat Apr 21 23:37:24 2018
+[?1034hbash-3.2$ python decision [K-list.py line-train.xml line-test.xml my-decision-list. txt > my-line-answers.txt
+bash-3.2$ head -50 my-decision [K- l[K[Klist.txt
+telephone_test	1	phone
+sale_test	1.380211241711606	product
+sell_test	0.6020599913279624	product
+call_test	0.3979400086720376	phone
+voice_test	1	phone
+market_test	0.6172999578846993	product
+service_test	1	phone
+food_test	1	product
+telephone_test	1	phone
+sale_test	1.380211241711606	product
+sell_test	0.6020599913279624	product
+call_test	0.3979400086720376	phone
+voice_test	1	phone
+market_test	0.6172999578846993	product
+service_test	1	phone
+food_test	1	product
+bash-3.2$ head -10 my-line-annswers[K[K[K[K[K[Kswers.txt
+<answer instance="line-n.w8_059:8174:" senseid="product"/>
+<answer instance="line-n.w7_098:12684:" senseid="phone"/>
+<answer instance="line-n.w8_106:13309:" senseid="product"/>
+<answer instance="line-n.w9_40:10187:" senseid="product"/>
+<answer instance="line-n.w9_16:217:" senseid="phone"/>
+<answer instance="line-n.w8_119:16927:" senseid="product"/>
+<answer instance="line-n.w8_008:13756:" senseid="phone"/>
+<answer instance="line-n.w8_041:15186:" senseid="product"/>
+<answer instance="line-n.art7} aphb 05601797:" senseid="product"/>
+<answer instance="line-n.w8_119:2964:" senseid="product"/>
+bash-3.2$ python scorer.py my-line-answers.txt line-answers.txt
+The baseline accuracy is 42.8%
+Model Accuracy is 64.8
+
+
+Confusion Matrix: 
+col_0                  senseid="phone"/>   senseid="product"/>
+row_0                                                         
+ senseid="phone"/>                    28                     1
+ senseid="product"/>                  43                    53
+ebash-3.2$ exit
+exit
+
+Script done on Sat Apr 21 23:39:29 2018
